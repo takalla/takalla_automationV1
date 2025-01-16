@@ -3,23 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2178b6fa0c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Takalla Automation</title>
     <link rel="icon" type="image/png" href="./assets/Takalla Icon.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <nav>
-      <img
-        src="/assets/Takalla.png"
-        alt="Takalla Automation"
-        class="logo--image"
-      />
-      <div class="nav__links">
-        <a href="" class="nav__link">ManyChat</a>
-        <a href="" class="nav__link">Services</a>
-        <a href="" class="nav__link">Blog</a>
-        <a href="" class="nav__link">Contact</a>
-        </div>
+      <div class="nav__row">
+        <img
+          src="/assets/Takalla.png"
+          alt="Takalla Automation"
+          class="nav__logo"
+        />
+        <ul class="nav__links">
+          <a href="./manychat.html" class="nav__link">ManyChat</a>
+          <a href="#AboutMe" class="nav__link">About Me</a>
+          <a href="#Contact" class="nav__link">Contact</a>
+        </ul>
+      </div>
     </nav>
+
+    <div class="body__shadow">
+      <section id="Welcome">
+        <div class="container">
+          <div class="row welcome__row">
+            <h1>Hey There!</h1>
+            <p class="welcome__para">
+              I'm thrilled you're here, ready to explore tools that can make
+              your business life simplier and more productive 💖
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Services">
+        <div class="container">
+          <div class="row">
+            <h2>Services</h2>
+            <div class="services">
+              <!-- ManyChat Service -->
+              <div class="service">
+                <div class="service__img--wrapper">
+                  <img src="./assets/manychat_logo.png" alt="" class="service__img"/>
+                </div>
+                <div class="service__description">
+                  <h3 class="service__description--title">
+                    ManyChat Automations
+                  </h3>
+                  <p class="service__description--para">
+                    we specialize in crafting custom ManyChat solutions that
+                    drive engagement, save time, and boost your bottom line.
+                    Streamline your communication Enhance customer interaction
+                    Grow your business with ease Discover how our expertise can
+                    transform your daily operations into a seamless, automated
+                    experience.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="AboutMe"></section>
+
+      <section id="Contact"></section>
+    </div>
+
+    <footer>
+      <div class="footer__row">
+        <a href="#">
+          <img
+            src="/assets/Takalla.png"
+            alt="Takalla Automation"
+            class="nav__logo"
+          />
+        </a>
+        <ul class="footer__links">
+          <a
+            href="https://www.instagram.com/takallaai/"
+            target="_blank"
+            class="footer__link"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a
+            href="https://www.threads.net/@takallaai"
+            target="_blank"
+            class="footer__link"
+            ><i class="fa-brands fa-square-threads"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/takallaautomation"
+            target="_blank"
+            class="footer__link"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/takallaai/"
+            target="_blank"
+            class="footer__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/TakallaAI" target="_blank" class="footer__link"
+            ><i class="fa-brands fa-square-x-twitter"></i
+          ></a>
+        </ul>
+        <p class="footer__copyright">Copyright &copy 2025 Takalla LLC</p>
+      </div>
+    </footer>
   </body>
 </html>
