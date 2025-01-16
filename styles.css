@@ -17,10 +17,10 @@ body {
 
 .body__shadow {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   margin: 0 auto;
-  box-shadow: -15px 0 30px rgb(48, 76, 71, 0.2),
-  20px 0 40px rgb(48, 76, 71, 0.2);
+  box-shadow: 0 2px 10px rgba(48, 76, 71, 0.1);
+  border-radius: 10px;
 }
 
 .container {
