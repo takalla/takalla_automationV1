@@ -127,7 +127,7 @@ nav {
 }
 
 .nav__link:hover {
-  color: #ad8286;
+  color: #5d728b;
 }
 
 /*
@@ -199,10 +199,10 @@ SERVICES
 }
 
 .service__description {
-  display: grid; /* Use grid for precise alignment */
-  grid-template-rows: auto 1fr auto; /* Title, Paragraph, Buttons - where 1fr is flexible space for para */
-  height: 100%; /* Ensures the grid fills the entire height of the service block */
-  gap: 12px; /* Space between grid rows, adjust as needed */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  gap: 12px;
 }
 
 .service__description--title {
@@ -219,7 +219,6 @@ SERVICES
 
 .service__description--buttons {
   display: flex;
-  /* justify-content: space-around; */
   justify-content: center;
   align-items: end;
   width: 100%;
@@ -268,5 +267,5 @@ footer {
 }
 
 .footer__copyright {
-  color: #772e35;
+  color: rgba(203, 206, 206, 0.1);
 }
