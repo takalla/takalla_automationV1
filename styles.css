@@ -209,19 +209,28 @@ STARTED
   background-color: #859c94;
   box-shadow: 0 0 20px rgb(000, 000, 000, 0.3);
   border-radius: 20px;
-  padding: 24px;
-  margin: 0 16px;
+  padding: 32px;
+  margin: 25px 16px 0 16px;
+  position: relative;
 }
 
 .step__icon {
   text-align: center;
-  margin-bottom: 10px;
+  font-size: 25px;
+  margin-bottom: 24px;
   padding: 10px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background-color: #000000;
-  border-radius: 25%;
   color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+}
+
+.step__title {
+  font-weight: 600;
+  margin-top: 25px;
 }
 
 .step__para {
