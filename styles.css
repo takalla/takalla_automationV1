@@ -214,6 +214,12 @@ STARTED
   position: relative;
 }
 
+.step__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .step__icon {
   text-align: center;
   font-size: 25px;
@@ -320,7 +326,7 @@ ME
   object-fit: contain;
   border: 4px solid #000000;
   border-radius: 1%;
-  box-shadow:10px 10px 20px rgb(000, 000, 000, 0.4);
+  box-shadow: 10px 10px 20px rgb(000, 000, 000, 0.4);
 }
 
 .about__word-column {
